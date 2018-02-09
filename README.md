@@ -1,3 +1,22 @@
+# Project set up to experiment with using Chart JS with a React Typescript app
+
+Imported react-chartjs-2 chart.js and into standard react app
+
+`yarn add react-chartjs-2 chart.js --save`
+`yarn add types/chart.js --save`
+
+react-chartjs-2 wraps ChartJS for React
+
+[Chart JS](http://www.chartjs.org/)
+
+Builds Bar chart no problem
+Mixed chart throws type error: TypeError: labels.slice is not a function. Same as open issue #144 on react-chat-js repo.
+Mixed Line builds no problem
+
+
+
+
+*************************************************************************************************************
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
